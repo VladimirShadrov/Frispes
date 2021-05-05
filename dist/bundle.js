@@ -9,6 +9,19 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "../node_modules/@babel/polyfill/lib/index.js":
+/*!****************************************************!*\
+  !*** ../node_modules/@babel/polyfill/lib/index.js ***!
+  \****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n__webpack_require__(/*! ./noConflict */ \"../node_modules/@babel/polyfill/lib/noConflict.js\");\n\nvar _global = _interopRequireDefault(__webpack_require__(/*! core-js/library/fn/global */ \"../node_modules/core-js/library/fn/global.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nif (_global[\"default\"]._babelPolyfill && typeof console !== \"undefined\" && console.warn) {\n  console.warn(\"@babel/polyfill is loaded more than once on this page. This is probably not desirable/intended \" + \"and may have consequences if different versions of the polyfills are applied sequentially. \" + \"If you do need to load the polyfill more than once, use @babel/polyfill/noConflict \" + \"instead to bypass the warning.\");\n}\n\n_global[\"default\"]._babelPolyfill = true;\n\n//# sourceURL=webpack:///../node_modules/@babel/polyfill/lib/index.js?");
+
+/***/ }),
+
 /***/ "../node_modules/@babel/polyfill/lib/noConflict.js":
 /*!*********************************************************!*\
   !*** ../node_modules/@babel/polyfill/lib/noConflict.js ***!
@@ -19,6 +32,20 @@
 
 "use strict";
 eval("\n\n__webpack_require__(/*! core-js/es6 */ \"../node_modules/core-js/es6/index.js\");\n\n__webpack_require__(/*! core-js/fn/array/includes */ \"../node_modules/core-js/fn/array/includes.js\");\n\n__webpack_require__(/*! core-js/fn/array/flat-map */ \"../node_modules/core-js/fn/array/flat-map.js\");\n\n__webpack_require__(/*! core-js/fn/string/pad-start */ \"../node_modules/core-js/fn/string/pad-start.js\");\n\n__webpack_require__(/*! core-js/fn/string/pad-end */ \"../node_modules/core-js/fn/string/pad-end.js\");\n\n__webpack_require__(/*! core-js/fn/string/trim-start */ \"../node_modules/core-js/fn/string/trim-start.js\");\n\n__webpack_require__(/*! core-js/fn/string/trim-end */ \"../node_modules/core-js/fn/string/trim-end.js\");\n\n__webpack_require__(/*! core-js/fn/symbol/async-iterator */ \"../node_modules/core-js/fn/symbol/async-iterator.js\");\n\n__webpack_require__(/*! core-js/fn/object/get-own-property-descriptors */ \"../node_modules/core-js/fn/object/get-own-property-descriptors.js\");\n\n__webpack_require__(/*! core-js/fn/object/values */ \"../node_modules/core-js/fn/object/values.js\");\n\n__webpack_require__(/*! core-js/fn/object/entries */ \"../node_modules/core-js/fn/object/entries.js\");\n\n__webpack_require__(/*! core-js/fn/promise/finally */ \"../node_modules/core-js/fn/promise/finally.js\");\n\n__webpack_require__(/*! core-js/web */ \"../node_modules/core-js/web/index.js\");\n\n__webpack_require__(/*! regenerator-runtime/runtime */ \"../node_modules/regenerator-runtime/runtime.js\");\n\n//# sourceURL=webpack:///../node_modules/@babel/polyfill/lib/noConflict.js?");
+
+/***/ }),
+
+/***/ "./js/index.js":
+/*!*********************!*\
+  !*** ./js/index.js ***!
+  \*********************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n\n // Перенос изображений\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\"); // require.context('../fonts', true, /\\.(ttf|woff|woff2)$/);\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -3925,6 +3952,34 @@ eval("__webpack_require__(/*! ../modules/web.timers */ \"../node_modules/core-js
 
 /***/ }),
 
+/***/ "./styles/header.scss":
+/*!****************************!*\
+  !*** ./styles/header.scss ***!
+  \****************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/header.scss?");
+
+/***/ }),
+
+/***/ "./styles/styles.scss":
+/*!****************************!*\
+  !*** ./styles/styles.scss ***!
+  \****************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/styles.scss?");
+
+/***/ }),
+
 /***/ "../node_modules/regenerator-runtime/runtime.js":
 /*!******************************************************!*\
   !*** ../node_modules/regenerator-runtime/runtime.js ***!
@@ -3982,24 +4037,23 @@ eval("function webpackEmptyContext(req) {\n\tvar e = new Error(\"Cannot find mod
 /******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
 /******/ 	}();
 /******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	}();
+/******/ 	
 /************************************************************************/
-!function() {
-"use strict";
-/*!****************************************************!*\
-  !*** ../node_modules/@babel/polyfill/lib/index.js ***!
-  \****************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_require__ */
-eval("\n\n__webpack_require__(/*! ./noConflict */ \"../node_modules/@babel/polyfill/lib/noConflict.js\");\n\nvar _global = _interopRequireDefault(__webpack_require__(/*! core-js/library/fn/global */ \"../node_modules/core-js/library/fn/global.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nif (_global[\"default\"]._babelPolyfill && typeof console !== \"undefined\" && console.warn) {\n  console.warn(\"@babel/polyfill is loaded more than once on this page. This is probably not desirable/intended \" + \"and may have consequences if different versions of the polyfills are applied sequentially. \" + \"If you do need to load the polyfill more than once, use @babel/polyfill/noConflict \" + \"instead to bypass the warning.\");\n}\n\n_global[\"default\"]._babelPolyfill = true;\n\n//# sourceURL=webpack:///../node_modules/@babel/polyfill/lib/index.js?");
-}();
-!function() {
-/*!*********************!*\
-  !*** ./js/index.js ***!
-  \*********************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: __webpack_require__ */
-eval("// Перенос изображений\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\"); // require.context('../fonts', true, /\\.(ttf|woff|woff2)$/);\n\n//# sourceURL=webpack:///./js/index.js?");
-}();
+/******/ 	// startup
+/******/ 	// Load entry module
+/******/ 	__webpack_require__("../node_modules/@babel/polyfill/lib/index.js");
+/******/ 	__webpack_require__("./js/index.js");
+/******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map
