@@ -1,0 +1,256 @@
+@import './styles.scss';
+
+.introducing {
+  min-height: 778px;
+  overflow: hidden;
+
+  &__intro {
+    color: $menu-color;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -88px;
+      width: 73px;
+      height: 2px;
+      background: $menu-color;
+    }
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__title,
+  &__first-word {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+  }
+
+  &__title {
+    color: $title-color;
+    width: 65%;
+  }
+
+  &__first-word {
+    color: $orange-color;
+  }
+
+  &__text {
+    width: 35%;
+    padding: 10px 0 10px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(106, 106, 106, 1);
+    text-align: left;
+  }
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+    display: flex;
+    position: relative;
+  }
+
+  &__select {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 230px);
+    width: 100%;
+    max-width: 445px;
+    background: rgba(16, 55, 92, 1);
+    padding: 30px 40px;
+    padding-top: 42px;
+    z-index: 1;
+  }
+
+  &__select-title {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    color: $white-color;
+    margin-bottom: 29px;
+  }
+
+  &__select-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(13, 44, 74, 1);
+    padding: 8px 16px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    position: relative;
+
+    &:last-child {
+      margin-bottom: 22px;
+    }
+  }
+
+  &__select-item-wrapper {
+    width: 95%;
+    pointer-events: none;
+  }
+
+  &__select-option {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(225, 255, 255, 0.3);
+  }
+
+  &__select-result {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $white-color;
+  }
+
+  &__select-item-arrow {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+
+  &__select-item-arrow-image {
+    display: block;
+    width: 50%;
+  }
+
+  &__select-field,
+  &__select-field_active {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -251%;
+    cursor: pointer;
+    background: rgba(13, 44, 74, 1);
+    color: $white-color;
+    z-index: 1;
+  }
+
+  &__select-field-item {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  &__select-field {
+    display: none;
+  }
+
+  &__select-field_active {
+    display: block;
+  }
+
+  &__select-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+  }
+
+  &__select-input {
+    // display: none;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &__select-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    color: transparent;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  &__select-button {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: $white-color;
+    background: $orange-color;
+    padding: 12.5px;
+  }
+
+  &__empty {
+    flex: 0 0 100%;
+  }
+
+  &__image-box {
+    flex: 0 0 87%;
+    transform: translateX(-82%);
+    padding-top: 54%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  &__dots-box {
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 57px;
+    display: flex;
+  }
+
+  &__dot {
+    width: 16px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-right: 4px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__dot-active {
+    width: 40px;
+    background: $orange-color;
+  }
+}

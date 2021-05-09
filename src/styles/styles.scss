@@ -170,17 +170,28 @@ select {
   vertical-align: middle;
 }
 
+$menu-color: rgba(34, 40, 49, 1);
+$title-color: rgba(16, 55, 92, 1);
+$orange-color: rgba(255, 87, 34, 1);
+$white-color: rgba(255, 255, 255, 1);
+
+html,
+body {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  min-height: 100vh;
   font-family: 'Lato', sans-serif;
-  padding: 0 15px;
 }
 
 .container {
   width: 100%;
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
 }
