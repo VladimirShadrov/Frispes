@@ -45,7 +45,7 @@ eval("\n\n__webpack_require__(/*! core-js/es6 */ \"../node_modules/core-js/es6/i
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_introducing_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/introducing.scss */ \"./styles/introducing.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_membership_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/membership.scss */ \"./styles/membership.scss\");\n\n\n\n\n // Перенос изображений\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\"); // require.context('../fonts', true, /\\.(ttf|woff|woff2)$/);\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_introducing_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/introducing.scss */ \"./styles/introducing.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_membership_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/membership.scss */ \"./styles/membership.scss\");\n/* harmony import */ var _styles_spaces_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/spaces.scss */ \"./styles/spaces.scss\");\n\n\n\n\n\n // Перенос изображений\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\"); // require.context('../fonts', true, /\\.(ttf|woff|woff2)$/);\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -4057,6 +4057,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./images/slider-buttons/btn-next-active.png":
+/*!***************************************************!*\
+  !*** ./images/slider-buttons/btn-next-active.png ***!
+  \***************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/slider-buttons/btn-next-active.png\");\n\n//# sourceURL=webpack:///./images/slider-buttons/btn-next-active.png?");
+
+/***/ }),
+
+/***/ "./images/slider-buttons/btn-next.png":
+/*!********************************************!*\
+  !*** ./images/slider-buttons/btn-next.png ***!
+  \********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/slider-buttons/btn-next.png\");\n\n//# sourceURL=webpack:///./images/slider-buttons/btn-next.png?");
+
+/***/ }),
+
+/***/ "./images/slider-buttons/btn-prev-active.png":
+/*!***************************************************!*\
+  !*** ./images/slider-buttons/btn-prev-active.png ***!
+  \***************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/slider-buttons/btn-prev-active.png\");\n\n//# sourceURL=webpack:///./images/slider-buttons/btn-prev-active.png?");
+
+/***/ }),
+
+/***/ "./images/slider-buttons/btn-prev.png":
+/*!********************************************!*\
+  !*** ./images/slider-buttons/btn-prev.png ***!
+  \********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/slider-buttons/btn-prev.png\");\n\n//# sourceURL=webpack:///./images/slider-buttons/btn-prev.png?");
+
+/***/ }),
+
 /***/ "./images/socials/YouTube.png":
 /*!************************************!*\
   !*** ./images/socials/YouTube.png ***!
@@ -4099,6 +4159,96 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/socials/instagram.png\");\n\n//# sourceURL=webpack:///./images/socials/instagram.png?");
+
+/***/ }),
+
+/***/ "./images/spaces/button-arrow.png":
+/*!****************************************!*\
+  !*** ./images/spaces/button-arrow.png ***!
+  \****************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/button-arrow.png\");\n\n//# sourceURL=webpack:///./images/spaces/button-arrow.png?");
+
+/***/ }),
+
+/***/ "./images/spaces/custom.png":
+/*!**********************************!*\
+  !*** ./images/spaces/custom.png ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/custom.png\");\n\n//# sourceURL=webpack:///./images/spaces/custom.png?");
+
+/***/ }),
+
+/***/ "./images/spaces/item-bg.png":
+/*!***********************************!*\
+  !*** ./images/spaces/item-bg.png ***!
+  \***********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/item-bg.png\");\n\n//# sourceURL=webpack:///./images/spaces/item-bg.png?");
+
+/***/ }),
+
+/***/ "./images/spaces/open-space.jpg":
+/*!**************************************!*\
+  !*** ./images/spaces/open-space.jpg ***!
+  \**************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/open-space.jpg\");\n\n//# sourceURL=webpack:///./images/spaces/open-space.jpg?");
+
+/***/ }),
+
+/***/ "./images/spaces/private.jpg":
+/*!***********************************!*\
+  !*** ./images/spaces/private.jpg ***!
+  \***********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/private.jpg\");\n\n//# sourceURL=webpack:///./images/spaces/private.jpg?");
+
+/***/ }),
+
+/***/ "./images/spaces/team.png":
+/*!********************************!*\
+  !*** ./images/spaces/team.png ***!
+  \********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spaces/team.png\");\n\n//# sourceURL=webpack:///./images/spaces/team.png?");
 
 /***/ }),
 
@@ -4158,6 +4308,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./styles/spaces.scss":
+/*!****************************!*\
+  !*** ./styles/spaces.scss ***!
+  \****************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/spaces.scss?");
+
+/***/ }),
+
 /***/ "./styles/styles.scss":
 /*!****************************!*\
   !*** ./styles/styles.scss ***!
@@ -4194,7 +4358,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /*! runtime requirements: module, __webpack_require__.o, __webpack_require__ */
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./introducing/introducing-1.jpg\": \"./images/introducing/introducing-1.jpg\",\n\t\"./introducing/introducing-2.jpg\": \"./images/introducing/introducing-2.jpg\",\n\t\"./introducing/introducing-3.jpg\": \"./images/introducing/introducing-3.jpg\",\n\t\"./introducing/introducing-4.jpg\": \"./images/introducing/introducing-4.jpg\",\n\t\"./membership/membership-background.svg\": \"./images/membership/membership-background.svg\",\n\t\"./membership/membership.png\": \"./images/membership/membership.png\",\n\t\"./select-arrow.png\": \"./images/select-arrow.png\",\n\t\"./socials/YouTube.png\": \"./images/socials/YouTube.png\",\n\t\"./socials/facebook.png\": \"./images/socials/facebook.png\",\n\t\"./socials/instagram.png\": \"./images/socials/instagram.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./introducing/introducing-1.jpg\": \"./images/introducing/introducing-1.jpg\",\n\t\"./introducing/introducing-2.jpg\": \"./images/introducing/introducing-2.jpg\",\n\t\"./introducing/introducing-3.jpg\": \"./images/introducing/introducing-3.jpg\",\n\t\"./introducing/introducing-4.jpg\": \"./images/introducing/introducing-4.jpg\",\n\t\"./membership/membership-background.svg\": \"./images/membership/membership-background.svg\",\n\t\"./membership/membership.png\": \"./images/membership/membership.png\",\n\t\"./select-arrow.png\": \"./images/select-arrow.png\",\n\t\"./slider-buttons/btn-next-active.png\": \"./images/slider-buttons/btn-next-active.png\",\n\t\"./slider-buttons/btn-next.png\": \"./images/slider-buttons/btn-next.png\",\n\t\"./slider-buttons/btn-prev-active.png\": \"./images/slider-buttons/btn-prev-active.png\",\n\t\"./slider-buttons/btn-prev.png\": \"./images/slider-buttons/btn-prev.png\",\n\t\"./socials/YouTube.png\": \"./images/socials/YouTube.png\",\n\t\"./socials/facebook.png\": \"./images/socials/facebook.png\",\n\t\"./socials/instagram.png\": \"./images/socials/instagram.png\",\n\t\"./spaces/button-arrow.png\": \"./images/spaces/button-arrow.png\",\n\t\"./spaces/custom.png\": \"./images/spaces/custom.png\",\n\t\"./spaces/item-bg.png\": \"./images/spaces/item-bg.png\",\n\t\"./spaces/open-space.jpg\": \"./images/spaces/open-space.jpg\",\n\t\"./spaces/private.jpg\": \"./images/spaces/private.jpg\",\n\t\"./spaces/team.png\": \"./images/spaces/team.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 
