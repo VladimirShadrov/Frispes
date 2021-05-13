@@ -2025,7 +2025,12 @@ body {
     margin-bottom: 35px; }
   .spaces__header-wrapper {
     width: 100%;
-    margin-bottom: 25px; } }
+    margin-bottom: 25px; }
+  .spaces__slider-row {
+    width: 204%; }
+  .spaces__check-avaibility-bg {
+    width: 220px;
+    padding: 25px 15px 25px 35px; } }
 
 @media (max-width: 750px) {
   .spaces__header-wrapper {
@@ -2044,6 +2049,12 @@ body {
     font-size: 16px;
     line-height: 19px;
     text-align: center; } }
+
+@media (max-width: 550px) {
+  .spaces__slider-row {
+    width: 423%; }
+  .spaces__slider {
+    margin-bottom: 35px; } }
 
 
 /*# sourceMappingURL=styles.css.map*/
