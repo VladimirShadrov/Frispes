@@ -1,0 +1,142 @@
+@import './styles.scss';
+
+.membership {
+  background: rgba(16, 55, 92, 1);
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+
+  &__image {
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__picture {
+    position: absolute;
+    bottom: 0;
+    left: 11%;
+    z-index: 1;
+  }
+
+  &__background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 11%;
+  }
+
+  &__cooperation {
+    max-width: 445px;
+    padding: 71px 5px 79px 0;
+  }
+
+  &__name {
+    color: $white-color;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -88px;
+      height: 2px;
+      width: 73px;
+      background: $white-color;
+    }
+  }
+
+  &__title {
+    color: $white-color;
+    margin-bottom: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+  }
+
+  &__text {
+    color: rgba(223, 223, 223, 1);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 33px;
+  }
+
+  &__button {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    background: rgba(255, 87, 34, 1);
+    color: $white-color;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    transition: 0.3s;
+
+    &:hover {
+      color: $menu-color;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .membership__wrapper {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .membership__wrapper {
+    // flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+  }
+
+  .membership__image {
+    display: none;
+  }
+
+  .membership__cooperation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .membership__title,
+  .membership__text {
+    text-align: center;
+  }
+
+  .membership__button {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .membership__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .membership__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+}
