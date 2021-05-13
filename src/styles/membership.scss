@@ -5,15 +5,16 @@
 
   &__wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     padding-right: 40px;
   }
 
   &__image {
-    width: 40%;
     position: relative;
     overflow: hidden;
+    padding-top: 452px;
+    padding-left: 428px;
   }
 
   &__picture {
@@ -25,9 +26,8 @@
 
   &__background {
     position: absolute;
-    bottom: 0;
+    bottom: -23%;
     left: 0;
-    top: 11%;
   }
 
   &__cooperation {
@@ -101,8 +101,6 @@
 
 @media (max-width: 800px) {
   .membership__wrapper {
-    // flex-direction: column;
-    // align-items: center;
     justify-content: center;
   }
 
